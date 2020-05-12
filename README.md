@@ -14,7 +14,7 @@ Code shared across the various stages
 
 **preprocess.py**
 
-Preprocess script 
+Preprocess script in order to find STOP_WORDS as the hyperparameter to use in the training session.
 
 **train.py**
 
@@ -63,3 +63,12 @@ It's a list of documents, each document will contain the following:
 
 - *metadata.publishedAt*
 
+## Get Started
+
+- sh create_env.sh
+
+- python train.py
+
+- python predict.py
+
+- 
