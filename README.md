@@ -12,10 +12,6 @@ Produce environment
 
 Code shared across the various stages
 
-**fetch_dependencies.py**
-
-Script to fetch dependencies 
-
 **preprocess.py**
 
 Preprocess script 
