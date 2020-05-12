@@ -49,7 +49,7 @@ if __name__ == "__main__":
     
     #TODO: fetch_dependencies.py 
     
-    data = fetch_data("train_data.json")
+    data = fetch_data("raw_data/train_data.json")
     content_body = [row['content']['fullTextHtml'] for row in data]
     train_labels = [row['labels'] for row in data]
     #split training and test dataset，first 6000 docs for training, the rest is for test

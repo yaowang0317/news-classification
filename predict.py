@@ -9,7 +9,7 @@ def predict(X_pred, tokenize_lemma, typical_label_matrix):
 
 if __name__ == "__main__":
    
-    predict_payload = fetch_data("predict_payload.json")
+    predict_payload = fetch_data("raw_data/predict_payload.json")
     content_body = [row['content']['fullTextHtml'] for row in predict_payload]
     avg_tfidf = read_model("tfidf_model.json")
     output = predict(content_body, tokenize_lemma, avg_tfidf)
