@@ -1,4 +1,4 @@
-# news-topic-classification
+# News Topic Classification
 
 Train a classification algorithm to classify news articles into a closed taxonomy system
 
