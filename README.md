@@ -65,10 +65,10 @@ It's a list of documents, each document will contain the following:
 
 ## Get Started
 
-- sh create_env.sh
+`sh create_env.sh`
 
-- python train.py
+`python train.py`
 
-- python predict.py
+`python predict.py`
 
-- 
+
