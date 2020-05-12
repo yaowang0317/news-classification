@@ -1,0 +1,10 @@
+name: VderEnv
+channels:
+    - conda-forge
+dependencies:
+    - spacy
+    - sklearn
+    - numpy
+    - collections
+    - ujson
+    
