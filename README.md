@@ -3,14 +3,26 @@ Train a classification algorithm to classify news articles into a closed taxonom
 
 ## Workflow
 
-**create_env.sh**: Produce environment 
-**core.py**: code shared across the various stages
-**fetch_dependencies.py**: Script to fetch dependencies 
-**preprocess.py**: Preprocess script 
-**train.py**: Train, Tune, and Evaluation
-**predict.py**: Predict script that accepts a path as input (see predict_payload.json) and outputs list of lists of class probabilities. The class probabilities are placed according to the natural order defined by taxonomy_id (see taxonomy_mappings.json)
-**probas.json**: output of python predict.py predict_paylaod.json
-**probas.json**: output of python predict.py predict_paylaod.json
+**create_env.sh**
+Produce environment 
+
+**core.py**
+Code shared across the various stages
+
+**fetch_dependencies.py**
+Script to fetch dependencies 
+
+**preprocess.py**
+Preprocess script 
+
+**train.py**
+Train, Tune, and Evaluation
+
+**predict.py**
+Predict script that accepts a path as input (see predict_payload.json) and outputs list of lists of class probabilities. The class probabilities are placed according to the natural order defined by taxonomy_id (see taxonomy_mappings.json)
+
+**probas.json**
+Output of python predict.py predict_paylaod.json
 
 
 ## raw_data
