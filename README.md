@@ -43,23 +43,23 @@ Output of python predict.py predict_paylaod.json
 
 a list of documents, each document will contain the following:
 
-*content.title*: 
+- *content.title*: 
 
 title of the article
 
-*content.fullTextHtml*: 
+- *content.fullTextHtml*: 
 
 html of the body of the article
 
-*metadata.publishedAt*: 
+- *metadata.publishedAt*: 
 
 datetime of publishing
 
-*content.sections*: 
+- *content.sections*: 
 
 content section where the article is manually assigned into. This information will not be available anymore at prediction time due to a change in the editorial workflow.
 
-*labels*: 
+- *labels*: 
 
 targets of the classification task. List of tuples (label, score). The labels themselves are produced by another algorithm and they contain wrongly assigned labels too. score highlights the confidence assigned by the first algorithm.
 
@@ -71,9 +71,9 @@ each key will be the integer taxonomy_id and each value will be the label.
 
 a list of documents, each document will contain the following:
 
-*content.title*
+- *content.title*
 
-*content.fullTextHtml*
+- *content.fullTextHtml*
 
-*metadata.publishedAt*
+- *metadata.publishedAt*
 
